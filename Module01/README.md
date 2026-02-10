@@ -1,7 +1,5 @@
 # Module 1
 
-Module description
-
 ## Task Inspirations
 
 - Smart solutions with affordable hardware.
@@ -50,3 +48,5 @@ Challenges:
 
 ## Reflection 1
 [Reflection 1](/Reflections/ref01.md)
+
+Pictures: [Module01 Pictures](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module01/pictures)

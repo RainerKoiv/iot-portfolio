@@ -16,7 +16,7 @@
 
 ## Task What is IoT
 
-The following notes I also shared with Matias Jürgenson, and since it's the first lab with our introductions, we kept it seperate. We'll add links to each other's repos next time.
+The following notes I also shared with Matias Jürgenson, and since it's the first lab with our introductions, we kept it separate. We will add links to each other's repos next time.
 
 Internet of Things (IoT) refers to a network of physical objects (“things”) that are embedded with sensors, software, and connectivity so they can collect data, communicate, and act over the internet without constant human intervention. These devices can monitor environments, automate tasks, and support decision-making by sending data to other systems or the cloud.
 

@@ -18,6 +18,7 @@ Take-away:
 - Magic wand demo was interesting (reminded me of the game YAPYAP).
 - Explorative work with m5 sticks was fun.
 - Intro about IoT helped me understand what it actually is.
+- There can be many issues (connectivity).
 - Advice: info is all over the place, maybe combine slides and/or make it more clear what needs to be submitted (we had to skip the live demo because of firewall problems, but there were also optional slides, so did I have to find more info on my own from there?).
 
 Good:

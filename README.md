@@ -1,4 +1,4 @@
-# Personal Portfolio for the IoT class <at university/school>
+# Personal Portfolio for the IoT class at the University of Tartu
 
 Author: Rainer Kõiv
 
@@ -22,6 +22,6 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
 
 ## Miscellanious
 
-- [Hardware in my/our possession](Hardware/README.md)
+- [Hardware in my/our possession](https://github.com/MatiasJurgenson/IoT-Course/tree/main/Hardware)
 
 

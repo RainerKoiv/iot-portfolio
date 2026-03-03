@@ -15,7 +15,7 @@
 ## Answers
 
 Take-away:
-- The canadian quest lecturer talked about the environmental research and we had a discussion on how IoT can help collect different types of data.
+- The Canadian quest lecturer talked about the environmental research and we had a discussion on how IoT can help collect different types of data.
 - Set up the IoT infrastructure (LAN) and the IoT gateway (WiFi AP).
 - Used: Mango router with OpenWRT + LuCI, MQTT broker, a laptop for configuring and two phones for testing.
 - Got an overview of MQTT - a publish and subscribe protocol for message passing.
@@ -24,7 +24,7 @@ Take-away:
 - Advice: the example scenario at the start was good, but I think it can be shorter. An example is nice, because then I know why and in what context am I doing something.
 
 Good:
-- I liked that the whole task was divided into four smaller parts.
+- I liked that the whole task was divided into four smaller parts with clear steps.
 - I liked that we recieved the tasks through MQTT, it was a practical example and kept up the pace.
 
 Difficult:

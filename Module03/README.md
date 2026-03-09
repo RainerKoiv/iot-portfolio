@@ -63,7 +63,7 @@ Steps:
 * We disconnected and reconnected from the computer by unplugging the Ethernet cable and replugging it into the computer, so that we can use the new IP
 * Logged into the router using the new IP address
 
-[Result image of Task 1]()
+[Phase 1 images](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-1)
 
 
 ## Phase 2 - Set up and configure your WiFi Accesspoint
@@ -81,21 +81,19 @@ A:
 
 Steps:
 
-- Using the Channel analysis tool in OpenWRT, we found a less-busy WiFi channel. In our case it was 1 [WiFi channels]()
+- Using the Channel analysis tool in OpenWRT, we found a less-busy WiFi channel. In our case it was 1
 - Under network → wireless, we set up a new WiFi Access point with the SSID Team10
 - After ensuring the network is secure with WPA2-PSK encryption, we set the WiFi password “iotempire”
 - Changed the channel to the previously found less-busy channel. Disabled the existing OpenWrt WiFi access point.
 
-[Result image of Task2]()
+[Phase 2 images](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-2)
 
 
 ## Phase 3 - MQTT Broker set up
 
 Steps:
 * Connect the router to an internet point (switch) via Ethernet to the WAN port on the router. You can connect the computer to the LAN via your new WiFi (Team10) now.
-  * [Mango connected only to the switch]()
-  * [Laptop connected to LAN via WiFi]()
-* Tested if we have internet connection on the router by going under network → diagnostic. Pinging openwrt.org we saw that packages are transmitted, meaning that we had internet on the router. [Pinging works]()
+* Tested if we have internet connection on the router by going under network → diagnostic. Pinging openwrt.org we saw that packages are transmitted, meaning that we had internet on the router.
 * Under System → Software, updated the List of packages available, then installed the following packages: 
   * mosquitto-ssl
   * luci-app-mosquitto
@@ -110,7 +108,7 @@ Steps:
   * Go back to the Custom Commands → Dashboard and run the command. 
   * Under PID/Program name, saw Mosquitto running.
  
-[Result of netstat -tulpn running]()
+[Phase 3 images](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-3)
 
 
 ## Phase 4 - Test MQTT messaging using devices
@@ -132,8 +130,6 @@ Steps:
 * Tested all 2 topics by sending messages back and forth between phones. 
 * Both published a message on both topics. Ensuring messages are successfully sent and received across different devices.
 
-[Sent messages from two phones]()
-
 -----------
 
 Q: Research about wildcards in MQTT and how they work. What does the # listen to. How do the topic and subtopic work and their hierarchy? Take notes in your portfolio. 
@@ -154,7 +150,7 @@ Steps:
 * Subscribed to all topics using the wildcard.
 * Sent messages using your phone and checked if the computer can see all of them.
 
-[Result of using wildcards to get messages from our topics]()
+[Phase 4 images](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-4)
 
 ## Reflection 3
 [Reflection 3](/Reflections/ref03.md)

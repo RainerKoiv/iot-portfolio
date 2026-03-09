@@ -152,6 +152,28 @@ Steps:
 
 [Phase 4 images](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-4)
 
+## Tutorial for setting up IoT network on a router (just do what we did 🥀)
+
+1. Connect a computer to the router LAN port using the Ethernet cable + power it with an usb cable
+2. open the router’s LUCI interface in a browser on your computer that is connected to the router
+3. set up a new WiFi Access point with a SSID and find a less-busy WiFi channel
+4. set the network with WPA2-PSK encryption and password
+5. update the List of packages available, then install the following packages: 
+   * mosquitto-ssl
+   * luci-app-mosquitto
+   * luci-app-commands 
+6. Configure your Mosquitto Broker under the Mosquitto tab:
+   * Check the box “Use this LuCI configuration”.
+   * Set to Enable “Allow anonymous connections” field.
+   * Add a new Listener, and configure it by setting the Port to 1883
+   * Under Protocol dropdown, set it to listen to MQTT.
+7. If luci-app-commands was correctly installed, you could check if the services that are running on the dashboard in the Mosquitto tab.
+   * Go to System -> Custom Commands -> Configure. 
+   * Add new services, name it Running Services and type "netstat -tulpn" on the command box. 
+   * Go back to the Custom Commands → Dashboard and run the command. 
+8. Test out MQTT apps and communications
+
+
 ## Reflection 3
 [Reflection 3](/Reflections/ref03.md)
 

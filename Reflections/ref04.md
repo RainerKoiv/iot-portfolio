@@ -16,7 +16,7 @@
 
 Take-away:
 - Continued with the LAN and the Mango router, used a button and a temp sensor
-- Used Arduino for code to collect and send data to the MQTT broker
+- Used Arduino example code and additional libaries to collect and send data to the MQTT broker
 - Used multiple phones with different subscribe/publish topics to simulate a real scenario
 - Set up the IoTempower, tested Mosquitto on CLI and MQTT on Node-Red
 

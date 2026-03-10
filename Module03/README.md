@@ -177,11 +177,59 @@ Steps:
 ## Reflection 3
 [Reflection 3](/Reflections/ref03.md)
 
-## Task ...
+## Week 2: Phase Extra - USB Tethering for Internet access
 
-...
+Steps:
+* Powered Mango with 12V → 4x5V USB charger, connected Mango router to WAN
+* Went to router’s config and from the software tab installed kmod-usb-net-rndis
+* Connected phone via USB and activated tethering
+* On router’s config, went to network → interfaces → Add new interface
+* Named it usb1, set the device to eth1, under firewall settings assigned the firewall-zone to wan wan6
+* Clicked Save & apply, rebooted the router, disconnected WAN, had internet on the laptop that was connected to the WiFi
 
-If the module is longer than 1 week, you might have several reflections within it. If not, delete this and the following.
+To start the USB tethering, you need to activate it on your phone and connect the phone to the router. Then configure the router to use the phone internet as WAN and then you can connect other devices to the router to access the Internet.
+
+[Phone connected to the router]()
+
+## First Aid Station Scenario Play
+
+For this we (router 10 / Team10) teamed up with people with routers 18 and 15.
+
+Team 15 worked on setting up the button and MQTT broker: https://github.com/RedToxyl/thw-iot/tree/main/Module03
+
+Team10 and 18 worked on the temperature sensor, which was difficult to set up because of some errors when trying to run the code.
+
+Steps:
+* Used Arduino IDE, installed the necessary MQTT and Dallas Temperature libraries. 
+* Combined the example codes to receive and output temp data and published it to the topic station/supplies/blood/temp
+
+We completed all 4 scenarios. Some images are on team 15’s GitHub: https://github.com/RedToxyl/thw-iot/tree/main/Module03/pictures
+
+Scene 1 result - Dr Anya saw temps rising\
+Scene 2 result - Gauze request and confirmation received in broker\
+Scene 3 result - Anya received code blue alert by being subscribed to station/alert/#\
+Scene 4 result - Anya's broadcast received by others
+
+[Scene results]()
+
+## Iotempower
+
+Steps:
+* Installed it on our Linux / WSL with ``curl -L https://now.iotempower.us | bash -``
+* Ran iot and then used ``mosquitto_sub`` command to listen to temperatures
+* Used ``mosquitto_pub`` command to publish a message to station/announcements and saw it on our phones
+
+[IoTempower]()
+
+## MQTT ON NODE-RED
+
+Steps:
+* Started it with: ``iot service start --web`` and went to ``http://localhost:40080``
+* Logged in, used nodes MQTT IN and DEBUG to listen to temperatures
+* Not sure if team 15 managed to do the buttons, but team 18 created the gauge for temperatures as well.
+* Ran out of time to do threshold warning and RGB LED
+
+[MQTT on NODE-RED]()
 
 ## Reflection 4
 [Reflection 4](/Reflections/ref04.md)

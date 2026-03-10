@@ -189,7 +189,7 @@ Steps:
 
 To start the USB tethering, you need to activate it on your phone and connect the phone to the router. Then configure the router to use the phone internet as WAN and then you can connect other devices to the router to access the Internet.
 
-[Phone connected to the router]()
+[Phone connected to the router](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#phase-extra)
 
 ## First Aid Station Scenario Play
 
@@ -210,7 +210,7 @@ Scene 2 result - Gauze request and confirmation received in broker\
 Scene 3 result - Anya received code blue alert by being subscribed to station/alert/#\
 Scene 4 result - Anya's broadcast received by others
 
-[Scene results]()
+[Scenes' results](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#scenes)
 
 ## Iotempower
 
@@ -219,7 +219,7 @@ Steps:
 * Ran iot and then used ``mosquitto_sub`` command to listen to temperatures
 * Used ``mosquitto_pub`` command to publish a message to station/announcements and saw it on our phones
 
-[IoTempower]()
+[IoTempower](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#iotempower)
 
 ## MQTT ON NODE-RED
 
@@ -229,7 +229,7 @@ Steps:
 * Not sure if team 15 managed to do the buttons, but team 18 created the gauge for temperatures as well.
 * Ran out of time to do threshold warning and RGB LED
 
-[MQTT on NODE-RED]()
+[MQTT on NODE-RED](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module03/pictures#mqtt-on-nodered)
 
 ## Reflection 4
 [Reflection 4](/Reflections/ref04.md)

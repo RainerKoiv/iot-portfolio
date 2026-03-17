@@ -18,10 +18,9 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
   [Reflection 1](Reflections/ref01.md)
 - [Module 2: Hardware and Basic Electronics](Module02/README.md),
   [Reflection 2](Reflections/ref02.md)
-- [Module 3: Infrastructure and IoT Gateway Setup
-](Module03/README.md),
+- [Module 3: Infrastructure and IoT Gateway Setup](Module03/README.md),
   [Reflection 3](Reflections/ref03.md), [Reflection 4](Reflections/ref04.md)
-- [Module 4: ???](Module04/README.md),
+- [Module 4: Embedded Programming and Deploying Nodes](Module04/README.md),
   [Reflection 5](Reflections/ref05.md), [Reflection 6](Reflections/ref06.md)
 
 ## Miscellanious

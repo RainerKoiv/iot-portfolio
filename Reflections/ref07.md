@@ -1,4 +1,4 @@
-# Reflection 6 in Module 4
+# Reflection 7 in Module 4
 
 - What is your take-away, what do you want to remember, what would be your advice?
   Take-away can be small summary, but better outstanding points.
@@ -25,6 +25,7 @@ Good:
 Difficult:
 - Node-red modelling
 - Creating code so that it aligns with the description
+- Debugging takes a lot of time
 
 Fun exploration / struggling:
 - exhausting 9 hours

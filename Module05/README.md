@@ -147,3 +147,8 @@ display(oled, u8g2, font_tiny);
 [access control system Node-Red flow and result]INSERT LINK
 
 [exported flow](flows/task3-flow.md)
+
+
+# Reflection 7
+
+[Ref08](/Reflections/ref08.md)

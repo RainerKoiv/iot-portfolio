@@ -34,4 +34,4 @@ Interactions:
 - Some questions to the TAs.
 
 Help and extra work:
-- None
+- TAs guided us a bit and gave feedback to module4

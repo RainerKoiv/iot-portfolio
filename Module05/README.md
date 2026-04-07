@@ -75,7 +75,7 @@ input(button1, D3, "released", "pressed").debounce(10);
 output(blue_led, ONBOARDLED).inverted();
 ```
 
-[Node1 Node-Red flow and result]INSERT LINK
+[Node1 Node-Red flow and result](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module05/pictures#task-1---creating-your-first-iot-system)
 
 [exported flow](flows/task1-flow.md)
 
@@ -92,7 +92,7 @@ input(b1, D3, "up", "down");
 output(blue, ONBOARDLED).inverted();
 ```
 
-[Node2 Node-Red flow and result]INSERT LINK
+[Node2 Node-Red flow and result](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module05/pictures#task-2---second-node)
 
 [exported flow](flows/task2-flow.md)
 
@@ -144,11 +144,11 @@ display(oled, u8g2, font_tiny);
 ```
 
 
-[access control system Node-Red flow and result]INSERT LINK
+[access control system Node-Red flow and result](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module05/pictures#task-3---rebuild-access-control-system-with-iotempower-4-nodes)
 
 [exported flow](flows/task3-flow.md)
 
 
-# Reflection 7
+# Reflection 8
 
 [Ref08](/Reflections/ref08.md)

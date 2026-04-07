@@ -22,6 +22,8 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
   [Reflection 3](Reflections/ref03.md), [Reflection 4](Reflections/ref04.md)
 - [Module 4: Embedded Programming and Deploying Nodes](Module04/README.md),
   [Reflection 5](Reflections/ref05.md), [Reflection 6](Reflections/ref06.md), [Reflection 7](Reflections/ref07.md)
+- [Module 5: IoT Systems](Module05/README.md),
+  [Reflection 8](Reflections/ref08.md)
 
 ## Miscellanious
 

@@ -77,6 +77,8 @@ output(blue_led, ONBOARDLED).inverted();
 
 [Node1 Node-Red flow and result]INSERT LINK
 
+[exported flow](flows/task1-flow.md)
+
 ## Task 2 - Second Node
 
 Did the same as task 1, but made it so, that the MQTT is sending to the other node to turn the LED on and off.
@@ -91,6 +93,8 @@ output(blue, ONBOARDLED).inverted();
 ```
 
 [Node2 Node-Red flow and result]INSERT LINK
+
+[exported flow](flows/task2-flow.md)
 
 ## Task 3:  rebuild access control system with IoTempower (4+ nodes)
 
@@ -141,3 +145,5 @@ display(oled, u8g2, font_tiny);
 
 
 [access control system Node-Red flow and result]INSERT LINK
+
+[exported flow](flows/task3-flow.md)

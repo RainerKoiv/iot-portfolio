@@ -13,3 +13,25 @@
   - Did you present, implement, made a PR, or fix something that was crucial for the class in itself?
 
 ## Answers
+
+Take-away:
+- IoT systems can be difficult to scale
+- IoTempower is a nice device management framework, it has many possibilites
+
+Suggestion: I don't think we've had an example on how to use multiple iot sensors with a single D1 Mini microcontroller. Would be helpful for the last tasks in each module, where it's needed. Already struggling with single sensors on single boards and connecting them.
+
+Good:
+- I really enjoyed using a new environment
+- Framework makes it simpler to deploy the devices
+
+Difficult:
+- Getting used to the new way of creating systems and nodes
+
+Fun exploration / struggling:
+- Struggeled a lot with the last task, where we had to use 4+ nodes. Couldn't get the RGB LED working and later remembered that we previously connected it separately. I think plugging it on top of the D1 Mini was the issue on why it didn't respond to getting messages.
+
+Interactions:
+- Some questions to the TAs.
+
+Help and extra work:
+- None

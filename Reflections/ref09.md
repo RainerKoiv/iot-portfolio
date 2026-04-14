@@ -1,4 +1,4 @@
-# Reflection 8 in Module 5
+# Reflection 9 in Module 5
 
 - What is your take-away, what do you want to remember, what would be your advice?
   Take-away can be small summary, but better outstanding points.
@@ -16,7 +16,8 @@
 
 Take-away:
 - You could use different sensors for literally anything.
-- We made the smoke alarm system 
+- We made the smoke alarm system.
+- Unfortunately we didn't have time to do DIY prototyping.
 
 Good:
 - I liked that we had to create our own challenges for the scenario.

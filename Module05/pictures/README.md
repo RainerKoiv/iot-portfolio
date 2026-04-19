@@ -29,3 +29,17 @@ Using two D1 Minis and one ESP32, we connected a RFID reader, a buzzer and an OL
 The Node-Red flow:
 
 ![alt text](task3-flow.png)
+
+
+# Hostel fire scenario
+
+When CO2 level goes above 2000 and temperature above 36°C, then:
+* the buzzer will start making noise
+* the motor will turn 90° to simulate doors closing
+* the distance sensor will start detecting if something is in the 20 cm range. If there is movement, then the motor will turn to 0° to simulate doors opening for the person.
+
+![alt text](hostel-fire-scenario.gif)
+
+The Node-Red flow:
+
+![alt text](module5-hostel-fire-scenario-flow.png)

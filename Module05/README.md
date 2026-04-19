@@ -149,6 +149,125 @@ display(oled, u8g2, font_tiny);
 [exported flow](flows/task3-flow.md)
 
 
-# Reflection 8
+## Reflection 8
 
 [Ref08](/Reflections/ref08.md)
+
+
+## Week 2 - Hostel HostmeWell Automation
+
+We, team 10, teamed up with team 18.
+
+### 3 Challenges
+
+## Challenge 1: smoke detector system
+
+Javier is a professional alarmer. During a fire he starts shouting and closes all the doors to prevent airflow. The problem is that the hostel is quite big and getting around takes time. During an emergency it is important to notify everyone as soon as possible and take action to put out the fire. All of this can be automated and made safer by using:
+* a CO2 sensor (with temp sensor) for measuring air quality;
+* a buzzer sensor for the alarm;
+* a motor to close all the doors to block airflow;
+* a distance sensor for the doors. When the doors are closed during a fire, they will automatically open when a person comes near them. 
+We will be using:
+* our Mango router as the hostel network; 
+* the MQTT Explorer for sending and receiving messages; 
+* IoTempower for creating the system and the nodes for the iot sensors; 
+* Node-Red for the flow modelling.
+Difficulties: setting up the new motor device; complex Node-Red flow
+
+
+## Challenge 2: access control with automatic lights
+
+Elina and Markus have come to the hostel after a 20h flight, it is 23:00 and pitch black outside. Once they get to the room all they wanna do is go to sleep. To help with that the room’s lights automatically light up when the door is opened and shut off if the sensors don’t detect any movement in the room.
+
+How it works:
+1. Elina swipes her RFID card at the room door.
+2. The system verifies her credentials via the access control software.
+3. If authorized:
+  * The smart lock opens.
+  * The lighting system is triggered ON.
+4. Motion sensors continue to monitor occupancy.
+5. If no motion is detected for a predefined period (e.g., 10 minutes), lights automatically turn OFF.
+
+Components:
+* RFID card readers (for employee identification)
+* Smart locks (electronically controlled doors)
+* Buzzer for notifying that the door is unlocked
+* led for notifying if the door is unlocked or locked
+* Motion sensors (detect presence in a room)
+* LED strip (control lighting circuits)
+* IoT platform (e.g., device communication and automation logic)
+
+Difficulties: What counts as motion? Only the floor or bed as well?
+
+## Challenge 3: "A Cleaner’s Dilemma Solved by a Silent Guardian"
+
+Characters: Eva - diligent cleaner at hostel hostmewell
+
+Eva starts her shift at 7am. She is a cleaner at the hostel. Guests often forget to hang up the “Do not disturb” sign at the door, which means that Eva has to knock on everyone's doors and ask for housekeeping. That makes for some embarrassing situations - if no one answers the door, Eva assumes that the room is empty, but sometimes the guest is just a heavy sleeper.
+
+The Solution: Each bed has a small pressure/weight sensor (FSR or load cell) under the mattress connected to an D1 mini node. When no weight is detected for more than 30 minutes after 6am, the system flags the bed as "likely vacated." A Node-RED flow sends a notification to the cleaning staff's dashboard and logs the time.
+
+Hardware: FSR pressure sensors, D1 mini, MQTT broker (IoTempower)
+
+Software: IoTempower, Node-RED dashboard, MQTT with a debounce/delay filter to avoid false positives from guests tossing in their sleep
+
+Filter used: Time-based filter/debounce that only triggers after sustained no-pressure signal
+
+Difficulties: Sensor calibration per bed weight, false positives from luggage left on beds, privacy concerns with continuous monitoring
+
+## Prototyping
+
+We chose challenge 1: smoke detector system
+
+Buses used for the sensors:
+* CO2 sensor - I2C
+* distance sensor - Digital GPIO
+* buzzer - Digital GPIO
+* motor - PWM
+
+Difficulties you found about certain sensors:
+* general debugging steps of sensors not working like they were supposed to.
+* The motor was a bit broken. It did not always work as expected, occasionally moving more or less than specified.
+
+How to use the filter we have chosen:
+* We chose a filter for the distance sensor, because we were only interested in movement near the door. In our case, we used a custom filter and set it to send the measured distance only if it’s under 200 mm. Maybe we could also have used one of the IoTempower predefined filters.
+
+Unfortunately we didn’t have time to make dashboards or DIY models.
+
+[Hostel fire scenario Node-Red flow and result](https://github.com/RainerKoiv/iot-portfolio/tree/main/Module05/pictures#Hostel-fire-scenario)
+
+[exported flow](flows/module5-hostel-fire-scenario-node-red.md)
+
+### Code
+
+IoTEmpire code for CO2 sensor: 
+
+```
+scd4x(gas, 5.0, 60, 101300).i2c(D7, D5);
+```
+
+Code for distance:
+
+```
+hcsr04(distance, D5, D6)
+    .filter([](Device& dev) {
+        int val = dev.read_int();
+        return val < 200;
+    });
+```
+
+IoTEmpire code for buzzer:
+
+```
+pwm(bzz, D5, 2000);
+```
+
+IoTEmpire code for servo (motor):
+
+```
+servo(door, D5);
+```
+
+## Reflection 9
+
+[Ref09](/Reflections/ref09.md)

@@ -154,13 +154,13 @@ display(oled, u8g2, font_tiny);
 [Ref08](/Reflections/ref08.md)
 
 
-## Week 2 - Hostel HostmeWell Automation
+# Week 2 - Hostel HostmeWell Automation
 
 We, team 10, teamed up with team 18.
 
-### 3 Challenges
+## 3 Challenges
 
-## Challenge 1: smoke detector system
+### Challenge 1: smoke detector system
 
 Javier is a professional alarmer. During a fire he starts shouting and closes all the doors to prevent airflow. The problem is that the hostel is quite big and getting around takes time. During an emergency it is important to notify everyone as soon as possible and take action to put out the fire. All of this can be automated and made safer by using:
 * a CO2 sensor (with temp sensor) for measuring air quality;
@@ -175,7 +175,7 @@ We will be using:
 Difficulties: setting up the new motor device; complex Node-Red flow
 
 
-## Challenge 2: access control with automatic lights
+### Challenge 2: access control with automatic lights
 
 Elina and Markus have come to the hostel after a 20h flight, it is 23:00 and pitch black outside. Once they get to the room all they wanna do is go to sleep. To help with that the room’s lights automatically light up when the door is opened and shut off if the sensors don’t detect any movement in the room.
 
@@ -199,7 +199,7 @@ Components:
 
 Difficulties: What counts as motion? Only the floor or bed as well?
 
-## Challenge 3: "A Cleaner’s Dilemma Solved by a Silent Guardian"
+### Challenge 3: "A Cleaner’s Dilemma Solved by a Silent Guardian"
 
 Characters: Eva - diligent cleaner at hostel hostmewell
 

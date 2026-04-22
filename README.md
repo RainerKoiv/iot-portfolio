@@ -24,6 +24,8 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
   [Reflection 5](Reflections/ref05.md), [Reflection 6](Reflections/ref06.md), [Reflection 7](Reflections/ref07.md)
 - [Module 5: IoT Systems](Module05/README.md),
   [Reflection 8](Reflections/ref08.md), [Reflection 9](Reflections/ref09.md)
+- [Module 6: Project](Module06/README.md),
+  [Reflection 11](Reflections/ref11.md)
 
 ## Miscellanious
 

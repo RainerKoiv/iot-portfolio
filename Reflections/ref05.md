@@ -39,7 +39,7 @@ Fun exploration / struggling:
 - Spent a while trying to figure out why we can't see the correct prints.
 
 Interactions:
-- Few interactions with the TA's - showed our module 3 + questions about module 4.
+- Few interactions with the TAs - showed our module 3 + questions about module 4.
 
 Help and extra work:
-- TA's answered a few of our questions and helped with the "wrong file" problem.
+- TAs answered a few of our questions and helped with the "wrong file" problem.

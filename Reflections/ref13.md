@@ -1,4 +1,4 @@
-# Reflection 11 in Module 6
+# Reflection 13 in Module 6
 
 - What is your take-away, what do you want to remember, what would be your advice?
   Take-away can be small summary, but better outstanding points.
@@ -15,21 +15,21 @@
 ## Answers
 
 Take-away:
-- Brainstorming ideas is fun but most of the ideas aren't that useful
-- A guest lecturer talked about using IoT devices in bogs and nature
+- Building nodes for a system with IoTEmpire is very simple and fun
 
 Good:
-- Got to hear others' ideas
-- Got to discuss our idea
+- Managed to complete 3/6 nodes for our system
+- Trying new iot devices - motor, laser distance sensor
 
 Difficult:
-- Choosing a project topic is quite difficult, when you have a vision, but it's a single system
+- Sometimes wiring, when we have many sensors
+- With limited resources (sensors / predefined code) we may not be able to build everything we want
 
 Fun exploration / struggling:
-- None
+- Something is wrong with the motor's software, the degrees it turns doesn't correspond to what we send it via MQTT
 
 Interactions:
-- With most of the teams
+- With team 18 and TAs
 
 Help and extra work:
 - None

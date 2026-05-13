@@ -5,8 +5,8 @@ Author: Rainer Kõiv
 My partner is Matias Jürgenson, [portfolio link](https://github.com/MatiasJurgenson/IoT-Course)
 
 In my team for the final project, I also had the following members:
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
-- <replace these pointy brackets with their full name>, [portfolio link](https://github.com/partner/iot-portfolio)
+- Tanel Pastarus, [TODO portfolio link](https://github.com/partner/iot-portfolio)
+- Albert Luckas Wihler, [TODO portfolio link](https://github.com/partner/iot-portfolio)
 
 Our team final project repository is [here](https://github.com/somewhere/final-iot-project)
 
@@ -25,7 +25,7 @@ My personal profile and expectations, you can find [here](Module01/README.md#tas
 - [Module 5: IoT Systems](Module05/README.md),
   [Reflection 8](Reflections/ref08.md), [Reflection 9](Reflections/ref09.md)
 - [Module 6: Project](Module06/README.md),
-  [Reflection 11](Reflections/ref11.md), [Reflection 12](Reflections/ref12.md), [Reflection 13](Reflections/ref13.md)
+  [Reflection 11](Reflections/ref11.md), [Reflection 12](Reflections/ref12.md), [Reflection 13](Reflections/ref13.md), [Reflection 14](Reflections/ref14.md)
 
 ## Miscellanious
 
